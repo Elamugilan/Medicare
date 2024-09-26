@@ -1,0 +1,117 @@
+.login-background {
+  background: linear-gradient(to right, black, grey, white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-body-tertiary-login-nav {
+  background-color: black;
+}
+
+.nav3-headername1 {
+  color: white !important;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.login-card {
+  width: 35%;
+  margin: 70px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-card-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-top: 15px;
+}
+
+.error-input {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  display: block;
+  margin-top: 5px;
+}
+.password-container {
+  position: relative;
+}
+
+.password-eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 20px;
+  height: 50px;
+}
+
+.back-btn {
+  margin-top: 10px;
+}
+
+.back-link {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .nav3-headername {
+    font-size: 40px;
+  }
+
+  .login-card {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .login-card-title {
+    font-size: 22px;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .nav3-headername {
+    font-size: 35px;
+    position: relative;
+    left: -30px;
+  }
+
+  .login-card {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .login-card-title {
+    font-size: 16px;
+  }
+
+  .form-control {
+    padding: 6px;
+  }
+
+  .login-btn {
+    font-size: 12px;
+    height: 35px;
+  }
+}

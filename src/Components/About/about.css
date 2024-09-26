@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-body-tertiary-login-nav {
+  background-color: #a2a2a2;
+}
+.bg-body-tertiary-about {
+  background-color: #000000;
+  height: 12vh;
+  width: 100%;
+}
+.about-text {
+  color: rgb(255, 255, 255) !important;
+  font-size: 50px;
+  display: flex;
+  margin: auto;
+}
+.about2-text {
+  color: rgb(255, 255, 255) !important;
+  font-size: 50px;
+  display: flex;
+  margin: auto;
+}
+.about-image {
+  margin-top: 10px;
+  width: 100%;
+}
+.about-col {
+  background-color: black;
+  height: 51vh;
+  margin-top: 50px;
+}
+.about-col-2 p {
+  margin-top: 120px;
+  margin-left: 30px;
+}
+.about-col-2 h3 {
+  position: relative;
+  top: 80px;
+  left: 80px;
+}
+.bg-body-tertiary-about2 {
+  background-color: #000000;
+  height: 12vh;
+  width: 100%;
+  margin-top: 80px;
+}
+.bg-body-tertiary-about2:hover::after {
+  background-color: #ff0000 !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 15px;
+  transform: scaleX(1);
+}
+.bg-body-tertiary-about2::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  background-color: #ffffff;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(0);
+}
+.about-card-1 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5% 2%;
+  position: relative;
+  left: 250px;
+  color: black;
+  height: 300px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .bg-body-tertiary-about {
+    background-color: black !important;
+  }
+  .about-text {
+    color: white !important;
+    font-size: 35px !important;
+    display: flex !important;
+    margin: auto !important;
+  }
+  .about-col {
+    background-color: black;
+    width: 100% !important;
+    height: 29vh !important;
+    position: absolute !important;
+  }
+  .about-image {
+    width: 300px !important;
+    position: absolute !important;
+    top: auto !important;
+    left: auto !important;
+  }
+  .about-col-2 h3 {
+    position: absolute !important;
+    left: 25px;
+    top: 500px !important;
+    font-size: 17px !important;
+  }
+  .about-col-2 p {
+    position: absolute !important;
+    left: -15px;
+    top: 440px !important;
+    font-size: 15px !important;
+  }
+  .about-col {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 15px;
+    transition: width 0.3s ease;
+  }
+  .bg-body-tertiary-about2 {
+    background-color: black !important;
+    position: absolute !important;
+    top: 770px !important;
+    height: 50px !important;
+  }
+  .about2-text {
+    color: white !important;
+    font-size: 12px !important;
+    display: flex !important;
+    margin: auto !important;
+  }
+  .about-card-1 {
+    display: block !important;
+    margin: auto !important;
+    width: 16rem !important;
+    margin-top: 14px !important;
+    height: 42vh !important;
+    position: relative !important;
+    bottom: -670px !important;
+    left: 0px !important;
+  }
+  .about-footer {
+    position: relative;
+    bottom: -590px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .bg-body-tertiary-about {
+    background-color: black !important;
+  }
+  .about-text {
+    color: white !important;
+    font-size: 35px !important;
+    display: flex !important;
+    margin: auto !important;
+  }
+  .about-col {
+    background-color: black;
+    width: 100% !important;
+    height: 40vh !important;
+    position: absolute !important;
+    left: 0px !important;
+  }
+  .about-image {
+    width: 300px !important;
+    position: absolute !important;
+    top: auto !important;
+  }
+  .about-col-2 h3 {
+    position: absolute !important;
+    left: 100px;
+    top: 600px !important;
+    font-size: 17px !important;
+  }
+  .about-col-2 p {
+    position: absolute !important;
+    left: -15px;
+    top: 540px !important;
+    font-size: 15px !important;
+  }
+  .about-col {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    width: 80% !important;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 15px;
+    transition: width 0.3s ease;
+  }
+  .bg-body-tertiary-about2 {
+    background-color: black !important;
+    position: absolute !important;
+    top: 770px !important;
+    height: 70px !important;
+  }
+  .about2-text {
+    color: white !important;
+    font-size: 18px !important;
+    display: flex !important;
+    margin: auto !important;
+  }
+  .about-card-1 {
+    display: block !important;
+    margin: auto !important;
+    width: 20rem !important;
+    margin-top: 44px !important;
+    height: 52vh !important;
+    position: relative !important;
+    bottom: -670px !important;
+    left: 0px !important;
+  }
+  .about-footer {
+    position: relative;
+    bottom: -700px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .about-image {
+    width: 100%;
+  }
+}

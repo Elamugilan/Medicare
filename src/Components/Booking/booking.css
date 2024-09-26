@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.appointment-navbar {
+  background-color: #000000;
+}
+.appointment-nav1 {
+  color: rgb(255, 255, 255) !important;
+  font-size: 50px;
+  display: flex;
+  margin: auto;
+}
+.appointment-icon {
+  color: white;
+  font-size: 50px;
+  margin-left: 10px;
+}
+.appointment-card1 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5% 2%;
+  position: relative;
+  left: 250px;
+  color: black;
+  height: 500px !important  ;
+}
+.appointment-card2 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5% 2%;
+  position: relative;
+  left: 250px;
+  color: black;
+  height: 500px !important  ;
+}
+.booking-footer {
+  position: relative;
+
+  bottom: -90px;
+}
+.appointment1-btn {
+  transition: all 0.3s ease-in-out;
+}
+.appointment2-btn {
+  transition: all 0.3s ease-in-out;
+}
+.appointment1-btn:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 5px black solid;
+}
+.appointment2-btn:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 5px black solid;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .appointment-nav1 {
+    color: rgb(255, 255, 255) !important;
+    font-size: 30px;
+    display: flex;
+    margin: auto;
+  }
+  .appointment-icon {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .appointment-card1 {
+    display: block !important;
+    margin: auto !important;
+    width: 16rem !important;
+    margin-top: 20px !important;
+    height: 62vh !important;
+    position: relative !important;
+    bottom: 0px !important;
+    left: 0px !important;
+  }
+  .appointment-card2 {
+    display: block !important;
+    margin: auto !important;
+    width: 16rem !important;
+    margin-top: 20px !important;
+    height: 62vh !important;
+    position: relative !important;
+    bottom: 0px !important;
+    left: 0px !important;
+  }
+  .booking-footer {
+    position: relative !important;
+    bottom: 0px !important;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .appointment-nav1 {
+    color: rgb(255, 255, 255) !important;
+    font-size: 25px !important;
+    display: flex;
+    margin: auto;
+  }
+  .appointment-icon {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .appointment-card1 {
+    display: block !important;
+    margin: auto !important;
+    width: 16rem !important;
+    margin-top: 20px !important;
+    height: 62vh !important;
+    position: relative !important;
+    bottom: -50px !important;
+    left: 0px !important;
+  }
+  .appointment-card2 {
+    display: block !important;
+    margin: auto !important;
+    width: 16rem !important;
+    margin-top: 20px !important;
+    height: 62vh !important;
+    position: relative !important;
+    bottom: -70px !important;
+    left: 0px !important;
+  }
+  .booking-footer {
+    position: relative !important;
+    bottom: -100px !important;
+  }
+}
